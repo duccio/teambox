@@ -12,7 +12,7 @@
   };
 
   ConversationList.initialize = function (options) {
-    _.bindAll(this, 'render', 'addConversation' );
+    _.bindAll(this, 'render', 'addConversation');
     this.collection.bind('add', this.addConversation);
     this.collection.bind('remove', this.removeConversation);
     this.collection.bind('refresh', this.reload);
@@ -31,10 +31,10 @@
   };
 
   ConversationList.addConversation = function(conversation, collection) {
+    var project_matches = conversation.get('project').permalink === this.project_id;
+    if(!project_matches) return;
     var view = new Teambox.Views.ConversationListItem({model:conversation, root_view: this});
     this.$('.conversation_list .conversation_list_inner .header').after( view.render().el );
-
-    document.location.hash = '!/projects/' + this.project_id + '/conversations/' + conversation.id;
   };
 
   ConversationList.removeConversation = function(conversation, collection) {

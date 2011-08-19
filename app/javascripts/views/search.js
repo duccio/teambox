@@ -18,7 +18,7 @@
   , 'click #quicksearch_results a': 'reset'            // Y U NO WORK?
   , 'focusout input#searchbox':     'hideQuickResults'
   , 'click a.search_btn':           'submitSearch'
-  }
+  };
 
   /* Updates current el
    *
@@ -35,7 +35,7 @@
    */
   Search.reset = function (evt) {
     jQuery('searchbox').empty();
-  }
+  };
 
   /* Keyboard navigation for quick results
    *

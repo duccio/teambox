@@ -157,8 +157,9 @@
     if (this.simple) {
       // TODO: Investigate what we need to do here...
       // Teambox.collections.conversations.add(resp);
-    } else if(this.new_conversation) {
+    } else if (this.new_conversation) {
       Teambox.collections.conversations.add(resp);
+      document.location.hash = '!/projects/' + this.project_id + '/conversations/' + conversation.id;
     } else {
       this.model.trigger('comment:added', comment_attributes, _.clone(Teambox.models.user), this.simple);
     }
@@ -202,9 +203,9 @@
     evt.preventDefault();
 
     if (this.upload_area.hasFileUploads()) {
-      //Uses Teambox.modules.Uploader
+      // Uses Teambox.modules.Uploader
       // return this.upload_area.uploadFiles();
-      //Uses simple iframe uploading
+      // Uses simple iframe uploading
       return this.upload_area.uploadFile();
     }
 

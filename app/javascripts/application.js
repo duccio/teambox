@@ -13,6 +13,7 @@
 //= require <lib/backbone>
 //= require <lib/backbone.paranoid>
 //= require <lib/chosen.jquery>
+//= require <lib/elastic.jquery>
 
 //= require <lib/handlebars>
 //= require <lib/jade>
@@ -95,6 +96,7 @@
 //= require <views/page_teaser>
 //= require <views/search>
 //= require <views/search_results>
+//= require <views/header>
 //= require <views/sidebar>
 //= require <views/upload_area>
 //= require <views/google_docs>
@@ -102,6 +104,7 @@
 //= require <views/private_elements_conversation>
 //= require <views/upload_area_conversation>
 //= require <views/welcome>
+//= require <views/quick_conversation>
 
 //= require <views/pages/page_list>
 //= require <views/pages/page_list_item>

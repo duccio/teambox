@@ -839,6 +839,7 @@ en:
       submit: Create
       title_placeholder: Add a title to the conversation
       comment_placeholder: Send a message to the rest of the group
+      project_placeholder: Select a project
     watcher_fields:
       add_suscribers: Which people will be watching this conversation?
       subscribe_note_html: These people will be notified via email of this message and any following comments.<br/>They can unsubscribe at any time.

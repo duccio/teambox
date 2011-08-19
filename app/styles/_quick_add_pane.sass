@@ -101,11 +101,24 @@
       resize: none
       overflow-y: scroll
     select
-      width: $quick_box_width - $label_width
+      width: $quick_box_width - 20px - $label_width - 10px
     .chzn-choices
       border: 0
       background: transparent
       +box-shadow(none)
+    .chzn-drop
+      +rounded(5px)
+    .chzn-container
+      float: right
+      margin-right: 10px
+      .chzn-single
+        background: transparent
+        border: 0
+        +box-shadow(none)
+        div
+          background: transparent
+          +rounded(0)
+          border: 0
     .privacy, .upload_area, .docs
       display: none
   .new_comment_actions

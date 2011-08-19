@@ -32,7 +32,7 @@
       collections.tasks    = this.my_tasks    = new Teambox.Collections.Tasks();
       collections.threads  = this.my_threads  = new Teambox.Collections.Threads();
       collections.projects = this.my_projects = new Teambox.Collections.Projects();
-      
+
       // Threads always sorted by update time
       collections.threads.comparator = function(thread) {
         return thread.get('updated_at');
@@ -161,10 +161,9 @@
     }
 
   , build: function () {
-      views.search_view = new Teambox.Views.Search();
       views.sidebar = new Teambox.Views.Sidebar({el: $('column')});
+      views.header = new Teambox.Views.Header({el: $('header_wrap')});
 
-      $$('.header h1')[0].insert({after: views.search_view.render().el});
       views.sidebar.renderTaskCounter();
     }
   , setPushSessionId: function (push_session_id) {

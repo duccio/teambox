@@ -1,0 +1,37 @@
+header
+  <%= t('conversations.new.title') %>
+  span.close
+form
+  .inputs
+    input(name='utf8', type='hidden', value= '✓');
+    .section.project
+      label(for='project') Project:
+      select.chzn-select#select_project(name='project_id', title='<%= t('conversations.new.project_placeholder') %>')
+        option(value='')
+        - each project in self.projects
+          option(value='#{project.id}')= project.name
+    .section.title
+      label(for='name') Title:
+      input(name='name', placeholder= '<%= t('conversations.new.title_placeholder') %>')
+    .textarea
+      textarea(name='comments_attributes[0][body]', placeholder= '<%= t('conversations.new.comment_placeholder') %>')
+    .section.to
+      label Notify:
+      select.chzn-select#select_to(title='+ Add an user', multiple)
+        option(value=" ")
+      .clear
+    // .section.upload_area TODO
+    .section.privacy
+      label Privacy:
+      select.chzn-select#select_privacy(title='+ Add an user', multiple)
+        option(value=" ")
+      .clear
+  input.button_blue_75.submit(name= 'commit', type= 'submit', data-disable-with= '<%= t('comments.new.sending') %>', value= '<%= t('common.save')%>')
+  ol.new_comment_actions
+    li
+      a.btn_attach(href= '#uploads', class= 'attach_icon hoverable', title= '<%= t('uploads.tooltip')%>')
+    li
+      a.btn_doc(href= '/google_docs', class='google_doc_icon hoverable', title='<%= t('google_docs.attach')%>')
+    li
+      a.btn_lock(href='#privacy', class='private_switch hoverable', title='<%=t("comments.private.control")%>')
+.clear

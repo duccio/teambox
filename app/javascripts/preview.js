@@ -26,7 +26,7 @@ var Preview = {
       button.update(button.readAttribute('data-alternate')).writeAttribute('data-alternate', text);
     }
   }
-}
+};
 
 document.on('click', 'form button.preview', function(e, button) {
   e.stop()
@@ -39,14 +39,14 @@ document.on('click', 'form button.preview', function(e, button) {
 
   Preview.toggle(box, button)
   Preview.manualPreview = true
-})
+});
 
 document.on('ajax:success', 'form, div.preview', function(e, form) {
   var box = form.down('div.preview')
   if (box) box.remove()
-})
+});
 
-document.on('keyup', 'form textarea', function(e, area) {
+document.on('keyup', 'textarea.with_preview', function(e, area) {
   if (Preview.manualPreview) return
   if (e.keyCode == Event.KEY_RETURN) {
     var form = area.up('form'),
@@ -59,4 +59,4 @@ document.on('keyup', 'form textarea', function(e, area) {
       Preview.toggle(box, button)
     }
   }
-})
+});

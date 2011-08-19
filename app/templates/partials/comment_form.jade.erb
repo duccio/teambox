@@ -14,7 +14,7 @@ form
         label(for='name') Title:
         input(name='name', placeholder= '<%= t('conversations.new.title_placeholder') %>') 
     .textarea
-      textarea(cols= '40', name='comments_attributes[0][body]', placeholder= '<%= t('comments.new.task') %>', rows= '20', autocomplete= 'off')
+      textarea.autoresize(cols= '40', name='comments_attributes[0][body]', placeholder= '<%= t('comments.new.task') %>', rows= '20', autocomplete= 'off')
       .autocomplete(style= 'display: none')
     span.help
       a(href= '/text_styles', class= 'style_icon', rel= 'facebox', title= '<%= t('projects.show.text_styling')%>')
