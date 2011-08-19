@@ -1,10 +1,9 @@
 (function () {
-  var WelcomeController = { routes: { '/welcome'     : 'intro' } };
+  var WelcomeController = { routes: { '!/welcome'     : 'intro' } };
 
   var Views = Teambox.Views;
 
   WelcomeController.intro = function() {
-    $('content_header').update('').hide();
     Views.Sidebar.highlightSidebar('welcome_link');
     //$('content').update(Templates.welcome.intro);
     var view = new Teambox.Views.Welcome();

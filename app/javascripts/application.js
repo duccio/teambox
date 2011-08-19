@@ -8,9 +8,9 @@
 //= require <socket_io>
 //= require <juggernaut>
 //= require <lib/jquery>
-//= require <lib/backbone-prototype>
+//= require <lib/backbone>
 //= require <lib/backbone.paranoid>
-//= require <lib/chosen.proto>
+//= require <lib/chosen.jquery>
 
 //= require <lib/handlebars>
 //= require <lib/jade>
@@ -143,7 +143,6 @@
 //= require <banner>
 //= require <comment>
 //= require <compact_mode>
-//= require <conversation>
 //= require <datas>
 //= require <oauth>
 //= require <i18n>
