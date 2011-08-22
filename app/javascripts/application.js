@@ -8,6 +8,7 @@
 //= require <socket_io>
 //= require <juggernaut>
 //= require <lib/jquery>
+//= require <lib/jquery.hotkeys>
 //= require <lib/backbone>
 //= require <lib/backbone.paranoid>
 //= require <lib/chosen.jquery>
@@ -151,7 +152,6 @@
 
 //= require <first_steps>
 //= require <forms>
-//= require <hotkeys>
 //= require <hours>
 //= require <hoverable>
 //= require <invitation>
