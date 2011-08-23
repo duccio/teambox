@@ -25,7 +25,7 @@
   // exports
   Teambox.Controllers.AppController = Controllers.Bootstrap.extend(AppController);
 
-  document.on("dom:loaded", function () {
+  jQuery(function () {
     Teambox.controllers.application = new Teambox.Controllers.AppController();
   });
 

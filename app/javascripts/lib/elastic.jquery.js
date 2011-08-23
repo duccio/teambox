@@ -159,3 +159,9 @@
         }
     });
 })(jQuery);
+
+jQuery(function() {
+  jQuery('textarea.autoresize').live('click', function() {
+    jQuery(this).elastic();
+  })
+});
