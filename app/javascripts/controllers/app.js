@@ -19,7 +19,7 @@
   };
 
   AppController.index = function () {
-    Backbone.history.saveLocation('#!/welcome');
+    document.location.hash = '#!/welcome';
   };
 
   // exports

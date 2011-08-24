@@ -14,23 +14,23 @@
     if (isRedirect) {
       parts.redirectUrl  = extractor.down('.redirect').innerHTML
     } else {
-      parts.body_classes = extractor.down(".body_classes").innerHTML
-      parts.title        = extractor.down(".title_part").innerHTML
-      parts.content      = extractor.down(".content_part").innerHTML
-      parts.column       = extractor.down(".column_part").innerHTML
-    }
+      parts.body_classes = extractor.down(".body_classes").innerHTML;
+      parts.title        = extractor.down(".title_part").innerHTML;
+      parts.content      = extractor.down(".content_part").innerHTML;
+      parts.column       = extractor.down(".column_part").innerHTML;
+    };
 
     extractor.update('');
 
     var response = parts;
-    globalParts = parts
+    globalParts = parts;
     parts = null;
     return response;
   };
 
   var updateOrRedirect = function(parts) {
     if (parts.redirect == true) {
-      Backbone.history.saveLocation(parts.redirectUrl);
+      document.location.hash = parts.redirectUrl;
       Backbone.history.loadUrl();
     } else {
       $('content').update(parts.content);
@@ -39,7 +39,7 @@
       //$('column').update(parts.column);
       $('view_title').update(parts.title);
     }
-  }
+  };
 
   Teambox.Controllers.FallbackController = {
     show: function() {
@@ -57,7 +57,7 @@
           var extractedParts = extractParts(r.responseText)
           updateOrRedirect(extractedParts);
         }
-      })
+      });
 
       var current = Teambox.Views.Sidebar.detectSelectedSection(window.location.hash);
       if (current) {
@@ -65,8 +65,7 @@
       }
 
     }
-  }
-
+  };
 
   // Polite method overwriting, like rails alias_chain_method but for prototype
   Backbone.History.prototype.loadUrl = Backbone.History.prototype.loadUrl.wrap(function(proceed) {
@@ -78,13 +77,13 @@
       $('content').removeClassName('ajax_forms');
     }
     return true;
-  })
+  });
 
   /* When a remote form is submitted in an ajax page, extract the response
    * and update the content div */
   document.on('ajax:complete', '.ajax_forms form', function(e, form) {
     var parts = extractParts(e.memo.responseText);
     updateOrRedirect(parts);
-  })
+  });
 
 }());

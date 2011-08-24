@@ -11,7 +11,7 @@
     _.bindAll(this, "render");
     this.collection.bind('add', this.addPage);
     this.collection.bind('remove', this.removePage);
-    this.collection.bind('refresh', this.reload);
+    this.collection.bind('reset', this.reload);
     this.title = 'Pages on project';
     this.project_id = options.project_id;
     this.page = options.page;
