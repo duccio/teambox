@@ -197,7 +197,7 @@ it:
       idea3: "Organizza un evento sulla gestione di progetti e indirizza a noi i partecipanti."
       idea4: "Invia semplicemente inviti via email a nuovi utenti."
       ideas: "Alcune idee su come far rendere al meglio Teambox"
-      learn_more: "Scopri di più..."
+      learn_more: "Scopri di più…"
       no_referred_users: "Non hai ancora portato nessun utente."
       option_1: "Opzione 1: Condividi questo link"
       option_2: "Opzione 2: Invita i tuoi contatti inserendo il loro indirizzo email"
@@ -292,7 +292,7 @@ it:
       confirm_delete: "Sicuro di voler rimuovere questo commento?"
       hours: "%{hours}h\n"
       hours_with_minutes: "%{hours}h %{minutes}m\n"
-      loading: Caricamento...
+      loading: Caricamento…
     conversations: 
       convert_to_task: "Converti in attività"
       task_name: "es. Carica la proposta per il logo "
@@ -317,7 +317,7 @@ it:
       comment_on_project: "Commenta: "
       conversation: "Invia un messaggio al resto del gruppo."
       project: "A cosa stai lavorando? Condividi idee, collegamenti o aggiornamenti."
-      sending: "In spedizione..."
+      sending: "In spedizione…"
       submit: Salva
       task: "Definisci cosa bisogna fare, assegna l'attività a qualcuno."
       task_list: "Condividi idee per questo elenco di attività. Per creare e assegnare le attività, usa la barra laterale."
@@ -326,9 +326,9 @@ it:
       preview: Anteprima
     private: 
       all: Tutto
-      private: "Questo elemento è visualizzabile solo dalle persone da te definite..."
+      private: "Questo elemento è visualizzabile solo dalle persone da te definite…"
       private_foreveralone: "Questo elemento è visualizzabile solo da te"
-      private_global: "Questo elemento è visualizzabile solo dalle seguenti persone..."
+      private_global: "Questo elemento è visualizzabile solo dalle seguenti persone…"
       public: "Questo elemento è visualizzabile da tutte le persone di questo progetto"
       readonly_warning: "Solo %{user} può cambiale le opzioni sulla privacy. "
     watchers: 
@@ -351,7 +351,7 @@ it:
     format_name_short: "%{first_name_first_character}. %{last_name}\n"
     gantt_chart: "Grafica Gantt"
     in_project: in
-    loading: Caricando...
+    loading: Caricando…
     logged_out: "Sei stato scollegato"
     next: Successivo
     not_allowed: "Non sei autorizzato a farlo!"
@@ -961,19 +961,19 @@ it:
     cancel: Annulla
   friends: 
     filter: 
-      name: "Filtra per nome..."
-      provider: "Filtra per fornitore..."
+      name: "Filtra per nome…"
+      provider: "Filtra per fornitore…"
       title: "Filtra amici"
     friend: 
       invite: Invita
-      inviting: Invitando...
-      loading: "Caricando i tuoi amici..."
+      inviting: Invitando…
+      loading: "Caricando i tuoi amici…"
       profile_page: "pagina del profilo"
       reinvite: "Rispedisci l'invito"
       sent: Inviato!
     index: 
       find_more_contacts: "Trova altri contatti in Teambox"
-      pending_invitation: "Inviti in sospeso..."
+      pending_invitation: "Inviti in sospeso…"
     invitations: 
       facebook: 
         project: "Collegati al mio progetto Teambox '%{project}' per poter condividere le attività on-line. Segui il link qua sotto per pubblicarlo su"
@@ -993,7 +993,7 @@ it:
     authorize_link: "Autorizza Google Docs"
     create: Crea
     create_new: "Crea un nuovo documento "
-    creating: "Sto creando..."
+    creating: "Sto creando…"
     new_document_placeholder: "Titolo nuovo documento"
     search_placeholder: "Cerca i documenti di Google Docs"
   helpers: 
@@ -1264,10 +1264,10 @@ it:
       offline_access: "Accedi all' account in qualsiasi momento"
       offline_access_description: "L' applicazione potrà accedere al tuo account fino a quando non revocherai l'accesso"
       read_projects: "Accedi ai dati del progetti"
-      read_projects_description: "Tutti i dati del progetto, come le conversazioni, le attività, gli elenchi di attività, le pagine, ecc... saranno visibili dall'applicazione."
+      read_projects_description: "Tutti i dati del progetto, come le conversazioni, le attività, gli elenchi di attività, le pagine, ecc… saranno visibili dall'applicazione."
       title: "Autorizza l' Applicazione"
       write_projects: "Crea i dati di progetti"
-      write_projects_description: "Crea conversazioni, attività, elenchi di attività, pagine, ecc..."
+      write_projects_description: "Crea conversazioni, attività, elenchi di attività, pagine, ecc…"
     link_account: "Collega account."
     logged_in: "Loggato con successo"
     not_linked: "Il servizio non è collegato al tuo account Teambox."
@@ -1348,7 +1348,7 @@ it:
       admin_users: "Gestisci utenti"
       appearance: Aspetto
       billing: "Abbonamenti e fatturazione"
-      delete: "Elimina questa organizzazione..."
+      delete: "Elimina questa organizzazione…"
       general_settings: "Impostazioni generali"
       invoices: Fatture
       task_list_templates: "Modelli di Elenchi di Attività"
@@ -1482,7 +1482,7 @@ it:
         title: "%{name} pagine\n"
       title: "Pagine in %{project}\n"
     new: 
-      define1_html: "Qui puoi <b>condividere informazioni di uso frequente</b> con il tuo team: un roadmap, links utili, istruzioni, emails template..."
+      define1_html: "Qui puoi <b>condividere informazioni di uso frequente</b> con il tuo team: un roadmap, links utili, istruzioni, emails template…"
       define2_html: "Editare una pagina è semplice e divertente, con elementi trascinabili che puoi editare in sito."
       feature1_html: "<b>Condividi</b>. Tutti i membri del progetto possono vederle ed editarle."
       feature2_html: "<b>Pubblica</b>. Publicazione istantanea al web con pagine condivise."
@@ -1490,12 +1490,12 @@ it:
       feature4_html: "<b>Wiki</b>. Funzionano come un wiki, dando un rapido accesso alle informazioni del progetto."
       footer1_html: "Usa Teambox come una <b>bacheca condivisa</b> per informazioni di uso frequente."
       footer2_html: "Puoi anche allegare files in qualsiasi pagina del progetto."
-      sending: "In spedizione..."
+      sending: "In spedizione…"
       submit: "Crea pagina"
       title: "Nuova pagina"
     primer: 
       create_first: "Crea la prima pagina di questo progetto!"
-      define1_html: "Qui puoi <b>condividere informazioni di uso frequente</b> con il tuo team: un roadmap, links utili, istruzioni, emails template..."
+      define1_html: "Qui puoi <b>condividere informazioni di uso frequente</b> con il tuo team: un roadmap, links utili, istruzioni, emails template…"
       define2_html: "Editare una pagina è semplice e divertente, con elementi trascinabili che puoi editare in sito."
       empty: "Non c'è ancora nessuna pagina in questo progetto."
       footer1_html: "Usa Teambox come una <b>bacheca condivisa</b> per informazioni di uso frequente."
@@ -1621,7 +1621,7 @@ it:
         you_cant_transfer_this_project_html: "Questo progetto appartiene all' organizzazione <b>%{organization}</b>. Tu non hai i permessi per poterlo trasferire. "
       tracks_time_html: "Attiva il time tracking. <em>Permetterà agli utenti registrare il tempo dedicato alle attività.</em> "
     index: 
-      archived: "Mostra %{count} progetti archiviati..."
+      archived: "Mostra %{count} progetti archiviati…"
       close_pane: "Vista Progetti Chiusi"
       new_project: "Nuovo progetto"
       projects: "I miei progetti"
@@ -1633,7 +1633,7 @@ it:
       explain_invitations: "Scegli chi far accedere a questo progetto. Puoi aggiungere o rimuovere utenti in un altro momento."
       invite_by_email: "Invita altri utenti inserendo il loro indirizzo email"
       invite_from_this_organization: "Invita utenti che già fanno parte dell'organizzazione %{organization}\n"
-      sending: "Inviti in spedizione..."
+      sending: "Inviti in spedizione…"
       submit: "Invita e comincia a collaborare"
       title: "Invita nuove persone in %{project}"
     join: 
@@ -1652,7 +1652,7 @@ it:
       explain1_html: "Un progetto è uno spazio condiviso con altri utenti. Utilizzalo per pubblicare commenti, assegnare compiti e condividere file. "
       explain2_html: "È possibile creare un progetto per ogni area: sviluppo, vendite, progetti clienti, etc."
       invalid_project: "Progetto non valido, correggi gli errori e riprova."
-      new_project: "Nuovo progetto..."
+      new_project: "Nuovo progetto…"
       not_allowed: "Non puoi più creare progetti con questo account."
       select_an_organization: "Devi selezionare un organizzazione per il tuo progetto"
       sending: "Creando il progetto… "
@@ -1674,14 +1674,14 @@ it:
       new: "+ Pagina nuova"
       title: Pagine
     people_list: 
-      invite_people: "Invita altre persone..."
+      invite_people: "Invita altre persone…"
       pending_invitations: 
         one: "Un invito in attesa"
         other: "%{count} inviti in attesa"
       people_in_project: "Persone in questo progetto"
     primer: 
       create_first: "Crea il tuo primo progetto!"
-      define1_html: "Usa i progetti per <b>collaborare</b> con gruppi di persone per: un sito web, organizzare una festa, le attività clienti..."
+      define1_html: "Usa i progetti per <b>collaborare</b> con gruppi di persone per: un sito web, organizzare una festa, le attività clienti…"
       define2_html: "Puoi creare <b>tanti progetti quanti ne vuoi</b> e condividerli con altri utenti on-line."
       empty: "Non fai parte ancora di nessun progetto."
       footer: "I progetti sono una forma centralizzata di collaborazione, così puoi evitare di mandare continue email al tuo team."
@@ -1705,7 +1705,7 @@ it:
       text_styling: "Help di formattazione"
       tip: "Nominando l'@account di qualcuno, si invierà una mail con il tuo messaggio"
       title: "Attività recente in %{project} "
-      update_your_status: "Dì cosa stai facendo..."
+      update_your_status: "Dì cosa stai facendo…"
   reset_passwords: 
     create: 
       invalid_html: "La URL per cambiare la password que hai visitato è scaduta o non è valida. Prova a cliccare di nuovo su Non Ricordo la Password dalla Home page.<br/>se non funziona contattaci in %{support} "
@@ -1777,14 +1777,14 @@ it:
       project_invitations: "Inviti (%{count})"
       settings: Impostazioni
     instructions: 
-      send_email: "Inserisci un nuovo commento via e-mail ..."
-      send_email_conversations: "Inserisci una nuova conversazione via e-mail ..."
+      send_email: "Inserisci un nuovo commento via e-mail …"
+      send_email_conversations: "Inserisci una nuova conversazione via e-mail …"
       send_email_help_conversation_html: "Per pubblicare un nuovo commento a questa conversazione invia una email a <a href='mailto:%{email}'>%{email}</a>. Solo i membri del progetto possono pubblicare una conversazione nuova. "
       send_email_help_conversations_html: "Per creare una conversazione nuova invia una email a <a href='mailto:%{email}'>%{email}</a> con Oggetto come titolo e Corpo come commento. Solo i membri del progetto possono creare una conversazione nuova."
       send_email_help_project_html: "Per pubblicare un nuovo commento a questa attività di progetto invia una email a <a href='mailto:%{email}'>%{email}</a>. Solo i membri del progetto possono pubblicare un nuovo commento. "
       send_email_help_task_html: "Per pubblicare un nuovo commento a questa attività invia una email a <a href='mailto:%{email}'>%{email}</a>. Solo i membri del progetto possono commentare l'attività."
-      subscribe_to_calendars: "Iscriviti ai calendari ..."
-      subscribe_to_feeds: "Iscriviti ai feed ..."
+      subscribe_to_calendars: "Iscriviti ai calendari …"
+      subscribe_to_feeds: "Iscriviti ai feed …"
     invite_contacts: 
       find_more_contacts: "Trova altri contatti"
       note1: "I tuoi contatti non saranno invitati ai tuoi progetti."
@@ -1805,9 +1805,9 @@ it:
       people: "Persone & Permessi"
       recent_activity: "Attività recente"
       settings: Impostazioni
-      show_all_organizations: "Gestisci le organizzazioni..."
-      show_all_projects: "Mostra tutti i progetti..."
-      show_all_tasks: "Visualizza tutte le attività dei miei progetti..."
+      show_all_organizations: "Gestisci le organizzazioni…"
+      show_all_projects: "Mostra tutti i progetti…"
+      show_all_tasks: "Visualizza tutte le attività dei miei progetti…"
       tasks: Attività
       time: "Time Tracking"
       today: "Scade Oggi"
@@ -1866,7 +1866,7 @@ it:
       upgrade: "Sai usando una versione obsoleta di Internet Explorer. Teambox può non funzionare correttamente con questa versione."
     user_navigation: 
       account_settings: "Impostazioni Account"
-      delete_account: "Cancella Account..."
+      delete_account: "Cancella Account…"
       linked_accounts: "Account Collegati"
       linked_apps: "Applicazioni Collegate"
       notifications: Notifiche
@@ -1937,13 +1937,13 @@ it:
         cant_be_blank: "Il nome non può essere lasciato in bianco"
         too_long: "il nome non può superare 255 caratteri"
     fields: 
-      finish_on_html: "Finisce il... <i>opzionale</i>"
+      finish_on_html: "Finisce il… <i>opzionale</i>"
       name_html: "Scegli un nome per questo elenco di attività <i>es. Preparare un Prototipo</i> "
       no_templates_yet_html: "Non hai ancora creato un modello di elenco di attività. Vai a %{link} della tua organizzazione"
       optional: "Se imposti le date di inizio e fine, questo elenco di attività sarà visualizzato nel diagramma di Gantt"
       or_from_scratch: "o crea un elenco di attività da zero"
       or_from_template: "o crea un elenco di attività da un modello"
-      start_on_html: "Comincia il... <i>opzionale</i> "
+      start_on_html: "Comincia il… <i>opzionale</i> "
       task_list: "Un elenco di attività definisce le tappe del tuo progetto. All'interno di un elenco è possibile creare le attività ed assegnarle agli utenti."
       task_list_templates_page: "Pagina dei Modelli di elenco di attività"
       title: "Nuovo elenco di attività"
@@ -1952,7 +1952,7 @@ it:
       3weeks: "Prossime 3 settimane"
       anybody: "Qualsiasi persona"
       anytime: "Qualsiasi data"
-      by_name: "Per nome..."
+      by_name: "Per nome…"
       filter_tasks: "Filtrare le attività"
       hide: Nascondere
       late_tasks: "Attività recenti"
@@ -2021,7 +2021,7 @@ it:
       tomorrow: Domani
       undefined: "Nessun data di scadenza"
     edit: 
-      sending: "Aggiornando l'attività..."
+      sending: "Aggiornando l'attività…"
       submit: "Aggiorna l'attività"
     errors: 
       name: 
@@ -2031,7 +2031,7 @@ it:
       assigned_to: "Chi è il responsabile?"
       assigned_to_nobody: Nessuno
       body_html: "Cosa bisogna fare? <i>opzionale</i> "
-      due_on_html: "Deve essere fatto prima... <i>opzionale</i> "
+      due_on_html: "Deve essere fatto prima… <i>opzionale</i> "
       name_html: "Inserisci il titolo per l'attività <i>eg. Carica Proposta Logo</i>"
       optional: "Di seguito puoi fornire maggiori istruzioni per questa attività."
       task: "Scegli un attività perseguibile. Più specifica è, meglio è."
@@ -2045,7 +2045,7 @@ it:
     my_tasks: 
       my_tasks: "Le mie attività di tutti i progetti"
     new: 
-      sending: "Creando l'attività..."
+      sending: "Creando l'attività…"
       submit: "Aggiungi un'attività"
       title: "Nuova attività"
     overdue: "%{days} giorni in ritardo"
@@ -2071,7 +2071,7 @@ it:
       confirm_delete: "Sei sicuro di voler cancellare questi dati?"
       incomplete: "Si richiedono maggiori informazioni."
       processed_at: "Elaborato alle %{processed_at} "
-      processing: "In fase di elaborazione ..."
+      processing: "In fase di elaborazione …"
       remove: Rimuovi
     export_fields: 
       description: "Seleziona i progetti da esportare."
@@ -2133,7 +2133,7 @@ it:
     new: 
       select_a_file: "Scegli un file fa caricare su Teambox"
       storage_remaining: "Puoi caricare altri %{bytes} con il tuo abbonamento attuale. <a href='%{url}'>Fai l' upgrade</a> per avere più spazio disco. "
-      uploading: Caricando...
+      uploading: Caricando…
     primer: 
       create_first: "Carica il primo file di questo progetto!"
       define1_html: "Hai mai avuto problemi nel condividere un file? Con Teambox è facile condividere."
@@ -2157,12 +2157,12 @@ it:
       resent: "Ti abbiamo rimandato la mail di attivazione. Controlla la tua casella di posta!"
     calendars: 
       clients: 
-        body_html: "Fai riferimento al <a href='%{link}'>knowledge base</a> per istruzioni su come configurare Google Calendar, Apple's iCal, Outlook, Blackberry ecc... "
+        body_html: "Fai riferimento al <a href='%{link}'>knowledge base</a> per istruzioni su come configurare Google Calendar, Apple's iCal, Outlook, Blackberry ecc… "
         title: "Istruzioni specifiche"
       how_to: 
         body_html: "In sostanza, dovresti importare i link qui sotto elencati nel client del tuo calendario. Visita il nostro <a href='%{link}'>knowledge base</a> per sapere come usarli con la tua applicazione di calendario. "
         title: "Come sincronizzare i tuoi calendari"
-      possible_clients: "Puoi sincronizzare i tuo Google Calendar, Apple iCal, Outlook, Blackberry ecc... "
+      possible_clients: "Puoi sincronizzare i tuo Google Calendar, Apple iCal, Outlook, Blackberry ecc… "
       subscribe_to_all: "Tutti i Progetti:"
       subscribe_to_project: "Progetto %{project}: "
       tasks_can_be_synced: "Le attività di Teambox si possono sincronizzare con i tuoi calendari, in questo modo non ti dimentichi di quello che succede."
