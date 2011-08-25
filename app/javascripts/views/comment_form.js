@@ -107,6 +107,13 @@
 
     if(this.new_conversation) this.form.find('.new_extra').show();
 
+    if (this.new_conversation) {
+      _.defer(function() {
+        jQuery('.to .chzn-select').chosen();
+      });
+      jQuery(this.el).find('.to').css({display: 'block'});
+    }
+
     return this;
   };
 
@@ -122,8 +129,6 @@
 
     this.form.addClass("new_comment edit_" + this.model.get('type').toLowerCase());
   };
-
- 
 
   /* Cleans the form
    *
@@ -159,7 +164,7 @@
       // Teambox.collections.conversations.add(resp);
     } else if (this.new_conversation) {
       Teambox.collections.conversations.add(resp);
-      document.location.hash = '!/projects/' + this.project_id + '/conversations/' + conversation.id;
+      document.location.hash = '!/projects/' + m.get('project').permalink + '/conversations/' + resp.id;
     } else {
       this.model.trigger('comment:added', comment_attributes, _.clone(Teambox.models.user), this.simple);
     }
@@ -333,6 +338,7 @@
   };
 
   CommentForm.togglePrivateElements = function(event) {
+    event.preventDefault();
     this.private_elements.toggle(event);
   };
 

@@ -25,14 +25,17 @@
     jQuery(this.el)
       .hide()
       .html(this.template({ people: people }))
-      .find('.people').hide();
+      .find('.people')
+      .hide()
+      .find('.chzn-select')
+      .chosen();
 
     return this;
   };
 
   // Show or hide the whole form relative to privacity
   PrivateElementsConv.toggle = function(event) {
-    event.stop();
+    event.preventDefault();
     if (this.visible) {
       this.el.hide();
     } else {
@@ -55,7 +58,7 @@
 
   PrivateElementsConv.reset = function(event) {
     jQuery(this.el).hide;
-  }
+  };
 
   Teambox.Views.PrivateElementsConv = Backbone.View.extend(PrivateElementsConv);
 }());
