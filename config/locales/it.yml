@@ -121,8 +121,8 @@ it:
       phone_number: Telefono
       project: Progetto
       social_network: "Rete Sociale"
-      task: Task
-      task_list: "Lista di task"
+      task: Attività
+      task_list: "Elenco di attività"
       upload: Caricamento
       website: "Sito web"
   activities: 
@@ -134,7 +134,7 @@ it:
     create_comment_project: 
       title: "%{user} ha aggiornato il suo stato su %{target}\n"
     create_comment_task: 
-      title: "%{user} ha aggiornato il task %{target}"
+      title: "%{user} ha aggiornato l'attività %{target}"
     create_conversation: 
       create_conversation: "ha iniziato la conversazione"
       title: "%{user} ha inziato una conversazione: %{conversation}\n"
@@ -152,11 +152,11 @@ it:
       left: "ha creato il progetto"
       title: "%{person} ha creato il progetto %{project}"
     create_task: 
-      create_task: "ha creato il task"
-      title: "%{user} ha creato il task %{task} in %{task_list}"
+      create_task: "ha creato l'attività"
+      title: "%{user} ha creato l'attività %{task} in %{task_list}"
     create_task_list: 
-      create_task_list: "ha creato la lista dei task"
-      title: "%{user} ha creato la lista dei task %{task_list}"
+      create_task_list: "ha creato l'elenco di attività"
+      title: "%{user} ha creato l'elenco di attività %{task_list}"
     create_teambox_data: 
       title: "%{person} ha importato il progetto %{project}"
     create_upload: 
@@ -178,11 +178,11 @@ it:
       conversation_without_title_html: "<a href='%{conversation_url}'>Conversazione</a> per il progetto %{project}\n"
       created: 
         conversation: "ha creato la conversazione"
-        task: "ha creato un task"
+        task: "ha creato un'attività"
       more_comments: 
         one: "Mostra un commento anteriore"
         other: "Mostra %{count} commenti anteriori"
-      task_on_task_list_html: "%{task} nella lista di task %{task_list}\n"
+      task_on_task_list_html: "%{task} nell'elenco di attività %{task_list}\n"
   affiliate: 
     area: "Area Affiliati"
     index: 
@@ -280,7 +280,7 @@ it:
   comments: 
     actions: 
       confirm_delete: "Sei sicuro di voler eliminare questo commento?"
-      convert_task: "Converti in task"
+      convert_task: "Converti in attività"
       edit: "Modifica commento"
       post_by_email: "Rispondere via email "
     attach: 
@@ -294,11 +294,11 @@ it:
       hours_with_minutes: "%{hours}h %{minutes}m\n"
       loading: Caricamento...
     conversations: 
-      convert_to_task: "Converti in task"
+      convert_to_task: "Converti in attività"
       task_name: "es. Carica la proposta per il logo "
     convert_form: 
-      destination: "Seleziona la lista dei task di destino"
-      name: "Inserisci un nome per questo task"
+      destination: "Seleziona l'elenco di attività di destinazione"
+      name: "Inserisci un nome per questa attività"
       submit: Converti
     edit: 
       submit: Salva
@@ -308,9 +308,9 @@ it:
       attach: Allega
     hours: 
       add_hours: Ore
-      hours: "Quante ore hai dedicato a questo task?"
+      hours: "Quanto tempo hai dedicato a questa attività?"
       time_tracking_docs: "Impara a utilizzare il time-tracking "
-      tooltip: "Aggiungi ore a questo task"
+      tooltip: "Aggiungi tempo a questa attività"
     new: 
       assigned_to: "Assegnato a:"
       assigned_to_nobody: "Non assegnato"
@@ -319,8 +319,8 @@ it:
       project: "A cosa stai lavorando? Condividi idee, collegamenti o aggiornamenti."
       sending: "In spedizione..."
       submit: Salva
-      task: "Definisci cosa bisogna fare, assegna il task a qualcuno."
-      task_list: "Condividi idee per questa lista di task. Per creare e assegnare i task, usa la barra laterale."
+      task: "Definisci cosa bisogna fare, assegna l'attività a qualcuno."
+      task_list: "Condividi idee per questo elenco di attività. Per creare e assegnare le attività, usa la barra laterale."
     preview: 
       close: "Nascondi anteprima"
       preview: Anteprima
@@ -366,8 +366,8 @@ it:
   confirm: 
     delete_group: "Sei sicuro di voler cancellare questo gruppo?"
     delete_page: "Sicuro di voler cancellare questa pagina?"
-    delete_task: "Sicuro di voler cancellare questo task?"
-    delete_task_list: "Sicuro di voler cancellare questa lista di task?"
+    delete_task: "Sicuro di voler cancellare questa attività?"
+    delete_task_list: "Sicuro di voler cancellare questo elenco di attività?"
     delete_upload: "Sicuro di voler cancellare questo file?"
   conversations: 
     actions: 
@@ -379,9 +379,9 @@ it:
     conversation_with_extract: 
       posted_by: "Pubblicato da"
     convert_form: 
-      name: "Dai un titolo a questo task"
+      name: "Dai un titolo a questa attività"
       status: Stato
-      task_list: "Crea il task in"
+      task_list: "Crea l'attività in"
     edit: 
       submit: "Modifica la conversazione"
     fields: 
@@ -807,8 +807,8 @@ it:
     left_project: "Non sei più in questo progetto"
     page: "La pagina <b>%{name}</b> è stata cancellata"
     person: "%{name} non fa più parte del progetto"
-    task: "Il task <b>%{name}</b> è stato cancellato"
-    task_list: "La lista di task %{name} è stata cancellata"
+    task: "L'attività <b>%{name}</b> è stata cancellata"
+    task_list: "L'elenco di attività %{name} è stato cancellato"
     upload: "Il file <b>%{name}</b> è stato cancellato"
   dividers: 
     actions: 
@@ -822,7 +822,7 @@ it:
       go_to_project: "Vai a %{project} adesso, e collabora con %{user} "
       subject: "%{user} ha accettato il tuo invito a [%{project}] "
       user_has_accepted: "%{user} ha accettato il tuo invito a %{project} "
-      you_can_now_collaborate: "Come puoi cominciare? Pubblica una conversazione o crea un task nel progetto! "
+      you_can_now_collaborate: "Come puoi cominciare? Pubblica una conversazione o crea un'attività nel progetto! "
     bounce: 
       not_delivered: "La tua email non può essere elaborata da Teambox. Leggi la nostra documentazione per sapere quali tipi di email accettiamo: %{link}"
       not_project_member_error: "Non sei un membro del progetto Teambox indicato."
@@ -878,7 +878,7 @@ it:
         one: "è iscritto alla conversazione e riceverà notifica delle risposte future."
         other: "sono iscritti alla conversazione e riceveranno notifica delle risposte future."
       are_watching_task: 
-        one: " è iscritto a questo task, e sarà notificato in caso di risposte future."
+        one: " è iscritto a questa attività, e sarà notificato in caso di risposte future."
         other: " sono iscritti a questo, e saranno notificati in caso di risposte future."
       assigned_to: "Assegnato a <b>%{user}</b>"
       comment: "Commenti nella bacheca del progetto: "
@@ -887,7 +887,7 @@ it:
       digest_reply_text: "Vai a %{reply_online}. "
       digest_title_html: "Promemoria attività per %{project_link} "
       due_on: "Data limite: %{date}"
-      my_tasks: "Altri task a te assegnati in %{project}"
+      my_tasks: "Altre attività a te assegnate in %{project}"
       notification_settings_link_html: "Puoi modificare il tuo %{settings_link} per le email successive.\n"
       project: "Progetto di Teambox:"
       reply: "Puoi anche rispondere a questa mail per pubblicare la risposta."
@@ -897,10 +897,10 @@ it:
       status: "Stato: %{status}"
       stop_watch: "Smetti di osservare "
       stop_watching_link_html: "%{stop_watch} questa discussione per non ricevere più email di notifica.\n"
-      task: "Task:"
-      task_commands: "Scrivi #concludi, #rifiuta o #interrompi in alto nella tua risposta per cambiare lo stato del task. Scrivi #%{username} per assegnarlo a @%{username}, etc."
-      task_link: "visualizza questo task online"
-      task_list: "Lista di task:"
+      task: "Attività:"
+      task_commands: "Scrivi #concludi, #rifiuta o #interrompi in alto nella tua risposta per cambiare lo stato dell'attività. Scrivi #%{username} per assegnarla a @%{username}, etc."
+      task_link: "visualizza questa attività online"
+      task_list: "Elenco di attività:"
       view_conversation_online: "Visualizza questa conversazione on-line"
       view_this_conversation_online_html: "Puoi cliccare su %{conversation} per rispondere e allegare file."
       view_this_task_online_html: "Puoi %{link} al commento e allegare file.\n"
@@ -976,11 +976,11 @@ it:
       pending_invitation: "Inviti in sospeso..."
     invitations: 
       facebook: 
-        project: "Collegati al mio progetto Teambox '%{project}' per poter condividere i task on-line. Segui il link qua sotto per pubblicarlo su"
-        signup: "Collegati al mio Teambox in modo da poter condividere progetti e task on-line. Usa il link qua sotto per pubblicarlo su Facebook"
+        project: "Collegati al mio progetto Teambox '%{project}' per poter condividere le attività on-line. Segui il link qua sotto per pubblicarlo su"
+        signup: "Collegati al mio Teambox in modo da poter condividere progetti e attività on-line. Usa il link qua sotto per pubblicarlo su Facebook"
       twitter: 
-        project: "Collegati al mio progetto '%{project}' per poter condividere i task: %{link}"
-        signup: "Collegati al mio Teambox in modo da poter condividere progetti e task: %{link} "
+        project: "Collegati al mio progetto '%{project}' per poter condividere le attività: %{link}"
+        signup: "Collegati al mio Teambox in modo da poter condividere progetti e attività: %{link} "
     pending_invitation: 
       delivery_fail: "stiamo cercando di consegnare l'invito usando %{provider} però riceviamo un messaggio d'errore. Tu puoi invitare questa persona manualmente inviandole il link per registrarsi: "
       project: "è stato invitato a unirsi al progetto '%{project}' mediante %{provider} "
@@ -1004,7 +1004,7 @@ it:
       submit: "Salva %{model}"
       update: "Aggiorna %{model}"
   hours: 
-    all_tasks: "Tutti i task"
+    all_tasks: "Tutte le attività"
     all_users: "Tutti gli utenti"
     comments: Tempi
     download: Scarica
@@ -1012,7 +1012,7 @@ it:
     entry_total: Totale
     filter_assigned: 
       anybody: Chiunque
-      my_tasks: "I miei task"
+      my_tasks: "Le mie attività"
     filter_by: "Filtra per"
     filter_organization: 
       all: "Tutte le Organizzazioni"
@@ -1022,11 +1022,11 @@ it:
       assigned_to: Persone
       organizations: Organizzazioni
       projects: Progetti
-      tasks: Task
+      tasks: Attività
     report: Report
     reports: 
       project: Progetti
-      task: Task
+      task: Attività
       user: Utenti
     week_num: "Settimana %{num}"
     week_total: Totale
@@ -1159,15 +1159,15 @@ it:
     tour_projects_title: "Tools di Gestione Progetti"
     tour_social: "Tools sociali"
     tour_social_title: "Software sociale di produttività "
-    tour_tasklists: "Liste di task"
-    tour_tasklists_title: "Gestione delle Attività e dei Task "
+    tour_tasklists: "Elenchi di attività"
+    tour_tasklists_title: "Gestione delle Attività "
     tour_time: "Time tracking"
     tour_time_title: "Software di time tracking"
     tour_title: "Collaborazione progetti per team agili"
     tour_video: "Guarda il video"
     tour_video_title: "Video tutoriale di Teambox"
     webinars: "Webinars realizzati e futuri"
-    webinars_title: "Sessioni di formazione on-line di gestione dei task"
+    webinars_title: "Sessioni di formazione on-line di gestione delle attività"
     what_is_teambox: "Cos' è Teambox?"
     what_is_teambox_title: "Informazione & features"
   memberships: 
@@ -1197,8 +1197,8 @@ it:
     data: "C'è stato un problema a localizzare i dati."
     page: "Pagina %{id} non trovata in questo progetto."
     project: "Il progetto %{id} non esiste."
-    task: "Task %{id} non trovato in questo progetto."
-    task_list: "Lista di Task %{id} non trovata in questo progetto."
+    task: "Attività %{id} non trovata in questo progetto."
+    task_list: "Elenco di attività %{id} non trovato in questo progetto."
     user: "L'utente non esiste."
   notes: 
     actions: 
@@ -1264,10 +1264,10 @@ it:
       offline_access: "Accedi all' account in qualsiasi momento"
       offline_access_description: "L' applicazione potrà accedere al tuo account fino a quando non revocherai l'accesso"
       read_projects: "Accedi ai dati del progetti"
-      read_projects_description: "Tutti i dati del progetto, come le conversazioni, i task, le liste di task, le pagine, ecc... saranno visibili dall'applicazione."
+      read_projects_description: "Tutti i dati del progetto, come le conversazioni, le attività, gli elenchi di attività, le pagine, ecc... saranno visibili dall'applicazione."
       title: "Autorizza l' Applicazione"
       write_projects: "Crea i dati di progetti"
-      write_projects_description: "Crea conversazioni, task, liste di task, pagine, ecc..."
+      write_projects_description: "Crea conversazioni, attività, elenchi di attività, pagine, ecc..."
     link_account: "Collega account."
     logged_in: "Loggato con successo"
     not_linked: "Il servizio non è collegato al tuo account Teambox."
@@ -1351,7 +1351,7 @@ it:
       delete: "Elimina questa organizzazione..."
       general_settings: "Impostazioni generali"
       invoices: Fatture
-      task_list_templates: "Modelli di Lista di Task"
+      task_list_templates: "Modelli di Elenchi di Attività"
     delete: 
       clarification: "Se elimini questa organizzazione, tutte le informazioni a essa collegate saranno perse per sempre. Gli utenti che appartengono a questa organizzazione potranno ancora accedere a Teambox e lavorare con altre organizzazioni."
       confirm: "Capisco che l'eliminazione di questa organizzazione è irreversibile e che tutto il contenuto a essa collegato andrà perduto."
@@ -1436,7 +1436,7 @@ it:
         title: "%{now} / %{max}\n"
     you_are_not_admin: "Non sei amministratore di questa organizzazione. Solo gli amministratori possono modificare le impostazioni e gestire gli utenti."
   page_title: 
-    archived_task_lists: "Task archiviati"
+    archived_task_lists: "Attività archiviate"
     create_uploads: "Carica file"
     create_users: "Crea account"
     edit_projects: "Modifica progetto"
@@ -1445,7 +1445,7 @@ it:
     index_pages: "Tuute le pagine"
     index_people: Persone
     index_projects: "Tutti i Progetti"
-    index_task_lists: "Tutte le liste di task"
+    index_task_lists: "Tutti gli elenchi di attività"
     index_uploads: "Tutti i caricamenti di files"
     new_conversations: "Nuova Conversazione"
     new_pages: "Nuova pagina"
@@ -1459,7 +1459,7 @@ it:
     buttons: 
       new_divider: Separatore
       new_note: Testo
-      new_task_list: "Lista di task"
+      new_task_list: "Elenco di attività"
       new_upload: "File o immagine"
     column: 
       all_pages: "Tutte le pagine"
@@ -1619,7 +1619,7 @@ it:
       settings: 
         manage_organizations: "Gestisci organizzazioni."
         you_cant_transfer_this_project_html: "Questo progetto appartiene all' organizzazione <b>%{organization}</b>. Tu non hai i permessi per poterlo trasferire. "
-      tracks_time_html: "Attiva il time tracking. <em>Permetterà agli utenti registrare il tempo dedicato nei task.</em> "
+      tracks_time_html: "Attiva il time tracking. <em>Permetterà agli utenti registrare il tempo dedicato alle attività.</em> "
     index: 
       archived: "Mostra %{count} progetti archiviati..."
       close_pane: "Vista Progetti Chiusi"
@@ -1665,8 +1665,8 @@ it:
         other: "Puoi creare altri %{count} progetti con il tuo abbonamento attuale. "
         zero_html: "Non puoi creare altri progetti.<br/>Il numero massimo di progetti per il tuo abbonamento attuale è %{max}. "
     not_in_project: 
-      explain_admin_html: "Per poter visualizzare questo progetto, lo devi aggregare. In questo modo avrai accesso alla sue conversazioni, task, pagine e file. Puoi farlo perchè sei un amministratore dell' organizzazione <b>%{organization}</b>. "
-      explain_public_html: "Per poter visualizzare questo progetto, lo devi aggregare. In questo modo avrai accesso alla sue conversazioni, task, pagine e file. Puoi farlo perchè questo è un <b>progetto pubblico</b>. "
+      explain_admin_html: "Per poter visualizzare questo progetto, lo devi aggregare. In questo modo avrai accesso alla sue conversazioni, attività, pagine e file. Puoi farlo perchè sei un amministratore dell' organizzazione <b>%{organization}</b>. "
+      explain_public_html: "Per poter visualizzare questo progetto, lo devi aggregare. In questo modo avrai accesso alla sue conversazioni, attività, pagine e file. Puoi farlo perchè questo è un <b>progetto pubblico</b>. "
       join: "Partecipa a questo progetto"
       not_allowed: "Questo è un progetto privato e non sei autorizzato ad accedervi."
       title: "Aggrego il progetto '%{project}'?"
@@ -1688,7 +1688,7 @@ it:
       item1_html: "<b>Crea un progetto</b>, dagli un nome e <b>invita i tuoi contatti</b> a collaborare."
       item2_html: "<b>Scrivi un commento</b> su quello che fai in ogni momento nella bacheca del progetto."
       item3_html: "<b>Discuti</b> sulle decisioni importanti usando le Conversazioni."
-      item4_html: "<b>Pianifica</b> quello che si deve fare con i task."
+      item4_html: "<b>Pianifica</b> quello che si deve fare con le attività."
       item5_html: "<b>Condividi informazioni</b> usando le Pagine di ciascun progetto."
     recent_conversations: 
       first: "+ Creare la prima conversazione"
@@ -1696,7 +1696,7 @@ it:
       title: "Conversazioni recenti"
       view_all: "Visualizza tutte le conversazioni"
     show: 
-      new_task_list_link: "Nuova lista di task"
+      new_task_list_link: "Nuovo elenco di attività"
       public_project: "Sito pubblico per questo progetto"
       rss: 
         description: "Attività recenti per il progetto %{name}"
@@ -1768,7 +1768,7 @@ it:
       mobile: "Versione mobile"
       support: "Feedback e problemi"
     gantt_banner_primer: 
-      title: "Non ci sono liste di task scadute da mostrare"
+      title: "Non ci sono elenchi di attività scaduti da mostrare"
     global_navigation: 
       help: "Help & Feedback "
       home: Home
@@ -1782,7 +1782,7 @@ it:
       send_email_help_conversation_html: "Per pubblicare un nuovo commento a questa conversazione invia una email a <a href='mailto:%{email}'>%{email}</a>. Solo i membri del progetto possono pubblicare una conversazione nuova. "
       send_email_help_conversations_html: "Per creare una conversazione nuova invia una email a <a href='mailto:%{email}'>%{email}</a> con Oggetto come titolo e Corpo come commento. Solo i membri del progetto possono creare una conversazione nuova."
       send_email_help_project_html: "Per pubblicare un nuovo commento a questa attività di progetto invia una email a <a href='mailto:%{email}'>%{email}</a>. Solo i membri del progetto possono pubblicare un nuovo commento. "
-      send_email_help_task_html: "Per pubblicare un nuovo commento a questo task invia una email a <a href='mailto:%{email}'>%{email}</a>. Solo i membri del progetto possono commentare il task."
+      send_email_help_task_html: "Per pubblicare un nuovo commento a questa attività invia una email a <a href='mailto:%{email}'>%{email}</a>. Solo i membri del progetto possono commentare l'attività."
       subscribe_to_calendars: "Iscriviti ai calendari ..."
       subscribe_to_feeds: "Iscriviti ai feed ..."
     invite_contacts: 
@@ -1797,9 +1797,9 @@ it:
       dropbox: "Cartelle Dropbox"
       files: Files
       gantt_and_calendars: "Gantts e calendari"
-      my_tasks: "I miei Task"
+      my_tasks: "Le mie attività"
       new_project: "+ Nuovo Progetto"
-      open_my_tasks: "Apri tutti i miei task"
+      open_my_tasks: "Apri tutte le mie attività"
       organizations: Organizzazioni
       pages: Pagine
       people: "Persone & Permessi"
@@ -1807,15 +1807,15 @@ it:
       settings: Impostazioni
       show_all_organizations: "Gestisci le organizzazioni..."
       show_all_projects: "Mostra tutti i progetti..."
-      show_all_tasks: "Visualizza tutti i task dei miei progetti ..."
-      tasks: Task
+      show_all_tasks: "Visualizza tutte le attività dei miei progetti..."
+      tasks: Attività
       time: "Time Tracking"
       today: "Scade Oggi"
     project_navigation: 
       affiliate_area: "Zona Affiliati"
       all_conversations: "Tutte le Conversazioni"
       all_pages: "Tutte le Pagine"
-      all_task_lists: "Tutti i Task"
+      all_task_lists: "Tutte le attività"
       conversations: Conversazioni
       files: Files
       gantt: "Calendario e charts"
@@ -1828,7 +1828,7 @@ it:
       people: Persone
       project_settings: "Impostazioni Progetto"
       signup: Registrati
-      task_lists: "Liste di Task"
+      task_lists: "Elenchi di attività"
       time_tracking: "Time Tracking"
     project_settings_navigation: 
       deletion: "Archiviare/Cancellare il progetto"
@@ -1847,16 +1847,16 @@ it:
     strip: 
       archived_html: "Questo progetto è archiviato. Per modificare o scrivere commenti devi ripristinarlo nella <a href='%{link}'>pagina Impostazioni Progetto</a>"
     task_navigation: 
-      all_tasks: "Tutti i task"
-      everybodys_tasks: "I Task di tutti"
-      hide_archived_tasks: "Nascondi i task archiviati"
-      my_assigned_tasks: "solo i task a me assegnati"
+      all_tasks: "Tutte le attività"
+      everybodys_tasks: "Le attività di tutti"
+      hide_archived_tasks: "Nascondi le attività archiviate"
+      my_assigned_tasks: "solo le attività a me assegnate"
       my_tasks: 
-        one: "Il mio Task 1"
-        other: "I miei %{count} Task"
-      unarchived_tasks: "Task non archiviati"
+        one: "La mia attività"
+        other: "Le mie %{count} attività"
+      unarchived_tasks: "Attività non archiviate"
     upcoming_events_primer: 
-      title: "Non ci sono task scaduti da mostrare"
+      title: "Non ci sono attività scadute da mostrare"
     upgrade_browser: 
       chrome: "Chrome,"
       firefox: Firefox
@@ -1896,68 +1896,68 @@ it:
       prompt: "Scegli un'opzione"
   task_list_templates: 
     description: Descrizione
-    explanation: "Un modello di lista di task è un insieme di task che ti permette creare liste di task ripetutamente."
+    explanation: "Un modello di elenco di attività è un insieme di attività che ti permette creare elenchi di attività ripetuti."
     form: 
       name_html: "Nome modello <i>es. Processo di progettazione</i>"
     index: 
-      new: "Nuovo Modello di Lista di Task"
-      title: "Modelli di Lista di Task per %{name} "
+      new: "Nuovo Modello di elenco di attività"
+      title: "Modelli di elenco di attività per %{name} "
     name: "Nome modello"
-    task: Task
-    task_name: "Nome task"
-    tasks: Task
-    title: "Modello di Lista di Task"
+    task: Attività
+    task_name: "Nome attività"
+    tasks: Attività
+    title: "Modello di elenco di attività"
   task_lists: 
     actions: 
-      archive: "archivia questa lista di task"
-      confirm_resolve_and_archive: "Sei sicuro di voler chiudere e archiviare questa lista di task?"
-      rename: "Rinomina la lista di task"
-      resolve_and_archive: "Chiudi tutti i task e archivia"
+      archive: "archivia questo elenco di attività"
+      confirm_resolve_and_archive: "Sei sicuro di voler chiudere e archiviare questo elenco di attività?"
+      rename: "Rinomina l'elenco di attività"
+      resolve_and_archive: "Chiudi tutte le attività ed archivia"
       set_dates: "Definisci la data di inizio & fine "
       show_archived: 
-        one: "Mostra 1 task archiviato"
-        other: "Mostra %{count} task archiviati"
+        one: "Mostra un'attività archiviata"
+        other: "Mostra %{count} attività archiviate"
     archive_box: 
-      unarchive_list: "Questa lista di task è archiviata."
+      unarchive_list: "Questo elenco di attività è archiviato."
     archived: 
-      description: "Stai guardando dei task archiviati. Questi task sono stati chuisi."
-      title: "Tutti i Task Archiviati"
+      description: "Stai guardando delle attività archiviate. Queste attività sono state chiuse."
+      title: "Tutti le attività archiviate"
     column: 
-      cant_create: "Non sei autorizzato a creare task in questo progetto"
+      cant_create: "Non sei autorizzato a creare attività in questo progetto"
       gantt_view: "Gantt del Progetto e calendario"
-      new_task_list: "Nuova lista di Task"
+      new_task_list: "Nuovo elenco di attività"
       other_views: "Altre viste"
       subscribe: "Iscriviti ai feed"
     destroy_message: 
-      deleted_html: "La Lista di Task <b>%{name}</b> è stata cancellata correttamente!"
+      deleted_html: "L'elenco di attività <b>%{name}</b> è stato cancellato correttamente!"
     edit: 
-      submit: "Aggiorna la Lista di task"
+      submit: "Aggiorna l'elenco di attività"
     errors: 
       name: 
         cant_be_blank: "Il nome non può essere lasciato in bianco"
         too_long: "il nome non può superare 255 caratteri"
     fields: 
       finish_on_html: "Finisce il... <i>opzionale</i>"
-      name_html: "Scegli un nome per questa Lista di Task <i>es. Preparere un Prototipo</i> "
-      no_templates_yet_html: "Non hai ancora creato un modello di Lista di Task. Vai a %{link} della tua organizzazione"
-      optional: "Se imposti le date di inizio e fine, questo task sarà visualizzato nel diagramma di Gantt"
-      or_from_scratch: "o crea una Lista di Task da zero"
-      or_from_template: "o crea una Lista di Task da un modello"
+      name_html: "Scegli un nome per questo elenco di attività <i>es. Preparare un Prototipo</i> "
+      no_templates_yet_html: "Non hai ancora creato un modello di elenco di attività. Vai a %{link} della tua organizzazione"
+      optional: "Se imposti le date di inizio e fine, questo elenco di attività sarà visualizzato nel diagramma di Gantt"
+      or_from_scratch: "o crea un elenco di attività da zero"
+      or_from_template: "o crea un elenco di attività da un modello"
       start_on_html: "Comincia il... <i>opzionale</i> "
-      task_list: "Una lista di task definisce le tappe del tuo progetto. All'interno di una lista è possibile creare i Task e assegnarli agli utenti."
-      task_list_templates_page: "Pagina dei Modelli di Lista di Task"
-      title: "Nuova Lista di Task"
+      task_list: "Un elenco di attività definisce le tappe del tuo progetto. All'interno di un elenco è possibile creare le attività ed assegnarle agli utenti."
+      task_list_templates_page: "Pagina dei Modelli di elenco di attività"
+      title: "Nuovo elenco di attività"
     filter: 
       2weeks: "Prossime 2 settimane"
       3weeks: "Prossime 3 settimane"
       anybody: "Qualsiasi persona"
       anytime: "Qualsiasi data"
       by_name: "Per nome..."
-      filter_tasks: "Filtrare i task"
+      filter_tasks: "Filtrare le attività"
       hide: Nascondere
-      late_tasks: "Task recenti"
+      late_tasks: "Attività recenti"
       month: "Entro 1 mese"
-      my_tasks: "I miei task"
+      my_tasks: "Le mie attività"
       no_date_assigned: "Nessuna data assegnata"
       today: Oggi
       tomorrow: Domani
@@ -1967,62 +1967,62 @@ it:
       back_to_normal_view: "Tornare alla visualizzazione normale"
       view_for_all_projects: "visualizzare il Calendario e i Gantt di tutti i progetti"
     index: 
-      add_link: "Nuova lista di task"
-      empty: "Non ci sono task in questa categoria"
+      add_link: "Nuovo elenco di attività"
+      empty: "Non ci sono attività in questa categoria"
       ends_on: "Finisce il %{date}"
       gantt_view: "Gantt e calendario del progetto"
       no_dates_assigned: "Date non assegnate"
       other_views: "Altre viste"
       rss: 
         description: "Attività del progetto %{name} "
-        title: "%{name} aggiornamenti task"
+        title: "%{name} aggiornamenti attività"
       starts_on: "Comincia il %{date} "
-      tasks_for_all_projects: "Task di tutti i progetti"
-      tasks_for_all_projects_explain: "Visualizzazione di tutti i task. Per gestire le liste di task e riordinare i task, apri i task di ciascun progetto."
-      tasks_for_project: "Liste di task di %{project} "
+      tasks_for_all_projects: "Attività di tutti i progetti"
+      tasks_for_all_projects_explain: "Visualizzazione di tutte le attività. Per gestire gli elenchi di attività e riordinare le attività stesse, apri singolarmente le attività di ciascun progetto."
+      tasks_for_project: "Elenchi di attività di %{project} "
     link: 
       edit: Modifica
-      new: "Nuova Lista di Task"
-      reorder: "Riordina le Liste di Task"
+      new: "Nuovo elenco di attività"
+      reorder: "Riordina gli elenchi di attività"
       reorder_done: "Riordine realizzato"
       unarchive: "Recuperare archiviazione"
     new: 
-      submit: "Aggiungi una Lista di Task"
-      title: "Nuova Lista di Task"
+      submit: "Aggiungi questo elenco di attività"
+      title: "Nuovo elenco di attività"
     primer: 
-      create_first: "Crea la prima lista di task di questo progetto!"
-      define_html: "Usa i task per <b>pianificare</b>, <b>vedere cosa hai fatto</b> e <b>rivedere cosa è stato fatto</b><br/><i>Che cosa? Chi? Quando?</i> I task possono avere uno stato, un responsabile e una data di scadenza."
-      empty: "Non c'è ancora nessuna lista di task in questo progetto."
-      footer1_html: "I task sono una forma semplice e agile di <b>riuscire a fare quello che ti proponi</b> e farlo sapere agli altri."
+      create_first: "Crea il primo elenco di attività di questo progetto!"
+      define_html: "Usa le attività per <b>pianificare</b>, <b>vedere cosa hai fatto</b> e <b>rivedere cosa è stato fatto</b><br/><i>Che cosa? Chi? Quando?</i> Le attività possono avere uno stato, un responsabile e una data di scadenza."
+      empty: "Non c'è ancora nessun elenco di attività in questo progetto."
+      footer1_html: "Le attività sono una forma semplice e agile di <b>riuscire a fare quello che ti proponi</b> e farlo sapere agli altri."
       footer2_html: "E' ora che dimentichi i plannings in Excel e i complessi diagrammi Gantt!"
-      item1_html: "<b>Pianifica</b>. Crea tutti i task dentro ad ogni lista e assegnali ai tuoi collaboratori."
-      item2_html: "<b>Informa</b>. Pubblica i commenti di ogni task. Allega files. Chiedi feedback."
-      item3_html: "<b>Tieniti aggiornato</b>. Ricevi notifiche dei task che ti riguardano."
-      item4_html: "<b>Revisiona</b>. Un task completato non si cancella, di modo che puoi vedere sempre cosa è stato fatto."
+      item1_html: "<b>Pianifica</b>. Crea tutte le attività dentro ad ogni elenco e assegnale ai tuoi collaboratori."
+      item2_html: "<b>Informa</b>. Pubblica i commenti di ogni attività. Allega files. Chiedi feedback."
+      item3_html: "<b>Tieniti aggiornato</b>. Ricevi notifiche delle attività che ti riguardano."
+      item4_html: "<b>Revisiona</b>. Un'attività completata non si cancella, di modo che puoi vedere sempre cosa è stato fatto."
     show: 
-      title: "Lista di Task: %{name}"
+      title: "Elenco di attività: %{name}"
   tasks: 
     archive_box: 
-      archive: "Archivia questo task"
-      reopen: "Riapri questo task"
-      you_are_done: "Sembra che hai già finito con questo task!"
+      archive: "Archivia questa attività"
+      reopen: "Riapri questa attività"
+      you_are_done: "Sembra che hai già finito con questa attività!"
     archive_message: 
-      archived_html: "Il Task <b>%{name}</b> è stato archiviato con successo!"
+      archived_html: "L'attività <b>%{name}</b> è stata archiviata con successo!"
     assigned: 
       assigned_to: "Responsabile: %{user}"
       myself: "Assegnato a me (%{user}) "
       unassigned: "Azzerato l'utente assegnato"
-    create: "Aggiungi un Task"
+    create: "Aggiungi un'attività"
     destroy_message: 
-      deleted_html: "Il Task <b>%{name}</b> è stato cancellato con successo!"
+      deleted_html: "L'attività <b>%{name}</b> è stata cancellata con successo!"
     due_on: 
       due_on: "Data scadenza"
       today: Oggi
       tomorrow: Domani
       undefined: "Nessun data di scadenza"
     edit: 
-      sending: "Aggiornando il task..."
-      submit: "Aggiorna il task"
+      sending: "Aggiornando l'attività..."
+      submit: "Aggiorna l'attività"
     errors: 
       name: 
         cant_be_blank: "Il nome non può essere lasciato in bianco"
@@ -2032,28 +2032,28 @@ it:
       assigned_to_nobody: Nessuno
       body_html: "Cosa bisogna fare? <i>opzionale</i> "
       due_on_html: "Deve essere fatto prima... <i>opzionale</i> "
-      name_html: "Inserisci il titolo del Task <i>eg. Carica Proposta Logo</i>"
-      optional: "Di seguito puoi fornire maggiori istruzioni per questo Task."
-      task: "Scegli un task perseguibile. Più specifico è, meglio è."
-      title: "Nuovo Task"
+      name_html: "Inserisci il titolo per l'attività <i>eg. Carica Proposta Logo</i>"
+      optional: "Di seguito puoi fornire maggiori istruzioni per questa attività."
+      task: "Scegli un attività perseguibile. Più specifica è, meglio è."
+      title: "Nuova attività"
     link: 
       edit: Modifica
       hide_archived_tasks: 
-        one: "Nascondi 1 task archiviato"
-        other: "Nascondi %{count} task archiviati"
-      new: "+ Nuovo Task"
+        one: "Nascondi un'attività archiviata"
+        other: "Nascondi %{count} attività archiviate"
+      new: "+ Nuova attività"
     my_tasks: 
-      my_tasks: "I miei task di tutti i progetti"
+      my_tasks: "Le mie attività di tutti i progetti"
     new: 
-      sending: "Creando il task..."
-      submit: "Aggiungi un Task"
-      title: "Nuovo Task"
+      sending: "Creando l'attività..."
+      submit: "Aggiungi un'attività"
+      title: "Nuova attività"
     overdue: "%{days} giorni in ritardo"
     overview_box: 
       status: Stato
-      title: "Questo task"
+      title: "Questa attività"
     show: 
-      title: "Task: %{name}"
+      title: "Attività: %{name}"
     status: 
       hold: "in hold"
       new: nuovo
@@ -2061,9 +2061,9 @@ it:
       rejected: rifiutato
       resolved: completato
     unarchive_box: 
-      reopen: "Riapri questo task"
-      task_is_closed: "Questo task è chiuso e archiviato"
-      unarchive: "Recupera un task archiviato"
+      reopen: "Riapri questa attività"
+      task_is_closed: "Questa attività è chiusa e archiviata"
+      unarchive: "Recupera un'attività archiviata"
   teambox_datas: 
     column: 
       description: "Qui puoi muovere i dati da e verso Teambox."
@@ -2137,7 +2137,7 @@ it:
     primer: 
       create_first: "Carica il primo file di questo progetto!"
       define1_html: "Hai mai avuto problemi nel condividere un file? Con Teambox è facile condividere."
-      define2_html: "Puoi caricare i files qui o allegare documenti alle conversazioni, task o pagine."
+      define2_html: "Puoi caricare i files qui o allegare documenti alle conversazioni, attività o pagine."
       empty: "Non c'è ancora nessun file in questo progetto."
       item1_html: "<b>Maggior capacità</b>. Carica file di qualunque dimensione e dimentica i limiti delle email."
       item2_html: "<b>Versioni</b>. Carica nuove versioni di un file e mantieni traccia delle modifiche."
@@ -2165,21 +2165,21 @@ it:
       possible_clients: "Puoi sincronizzare i tuo Google Calendar, Apple iCal, Outlook, Blackberry ecc... "
       subscribe_to_all: "Tutti i Progetti:"
       subscribe_to_project: "Progetto %{project}: "
-      tasks_can_be_synced: "I task di Teambox si possono sincronizzare con i tuoi calendari, in questo modo non ti dimentichi di quello che succede."
+      tasks_can_be_synced: "Le attività di Teambox si possono sincronizzare con i tuoi calendari, in questo modo non ti dimentichi di quello che succede."
       title: "Sincronizza i tuoi calendari"
       your_calendars: "I tuoi calendari"
     create: 
       error: "Non è stato possible registrare l'account, siamo spiacenti! Ritenta, o contatta un amministratore (link in alto)."
       thanks: "Grazie per esserti registrato!"
     daily_task_reminder_email: 
-      daily_task_reminder: "Promemoria quotidiano dei task"
-      daily_task_reminder_from_teambox: "Questo è la mail promemoria quotidiana dei task di Teambox"
-      late_tasks: "Task recenti"
+      daily_task_reminder: "Promemoria quotidiano delle attività"
+      daily_task_reminder_from_teambox: "Questo è la mail promemoria quotidiana delle attività di Teambox"
+      late_tasks: "Attività recenti"
       settings_page: "pagina impostazioni"
-      tasks_for_next_two_weeks: "Task per le prossime due settimane"
-      tasks_for_today: "Task per oggi"
-      tasks_for_tomorrow: "Task per domani"
-      tasks_without_a_due_date: "Task senza scadenza"
+      tasks_for_next_two_weeks: "Attività delle prossime due settimane"
+      tasks_for_today: "Attività di oggi"
+      tasks_for_tomorrow: "Attività di domani"
+      tasks_without_a_due_date: "Attività senza scadenza"
       you_receive_this_message_html: "Hai ricecuto questo messaggio perchè ti sei iscritto a questo servizio. Se vuoi lo puoi disabilitare adesso %{link}"
     edit: 
       submit: "Aggiorna account"
@@ -2196,7 +2196,7 @@ it:
       teambox_magic_happens: "Teambox gestirà il tuo messaggio ed allegati e li pubblicherà in coda al thread."
       title: "Rispondere via email"
       will_create_conversation: "Una nuova conversazione sarà creata in questo progetto."
-      will_create_task: "Un nuovo task sarà creato un questo progetto."
+      will_create_task: "Una nuova attività sarà creata in questo progetto."
     feeds: 
       configure: "È possibile configurare il lettore di feed per avvisarti ogni volta che cambia qualcosa in Teambox, anche se non è aperto in una finestra del tuo dispositivo."
       feed_reader: 
@@ -2257,7 +2257,7 @@ it:
       newsletter: "Informami sulle nuove funzionalità e suggerimenti!"
       notifications: 
         clarification: |
-          Quando qualcuno ti menziona (usando '@% {login}' o '@all') in una conversazione o un task,
+          Quando qualcuno ti menziona (usando '@% {login}' o '@all') in una conversazione o un'attività,
           riceverai una notifica via email e sarai aggiunto come osservatore a tale elemento.
         default: Default
         digest: "Modalità di consegna email"
@@ -2268,15 +2268,15 @@ it:
         digest_option_weekly: "Promemoria settimanale"
         notification_options: "Opzioni di notifica"
         notify_conversations: "Mandami notifiche delle conversazioni che seguo"
-        notify_on_mention: "Invia una email immediatamente quando qualcuno mi @menziona in una conversazione o task che sto seguendo"
+        notify_on_mention: "Invia una email immediatamente quando qualcuno mi @menziona in una conversazione o attività che sto seguendo"
         notify_pages: "Notificami degli aggiornamenti alle pagine che sto seguendo"
-        notify_tasks: "Mandami notifiche degli aggiornamenti dei task che seguo"
+        notify_tasks: "Mandami notifiche degli aggiornamenti delle attività che seguo"
         project_name: "Nome progetto"
-        wants_task_reminder: "Voglio ricevere una mail giornaliera dei miei task che scadono a breve"
+        wants_task_reminder: "Voglio ricevere una mail giornaliera delle mie attività che scadono a breve"
         watch_new_conversation: Conversazione
         watch_new_item: "Osserva un nuovo elemento"
         watch_new_page: Pagina
-        watch_new_task: Task
+        watch_new_task: Attività
       old_password: "Vecchia password"
       password: Password
       password_confirmation: "Conferma password"
