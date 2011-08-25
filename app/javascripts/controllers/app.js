@@ -12,6 +12,7 @@
     this.users_controller = new Controllers.UsersController({app: this});
     this.tasks_controller = new Controllers.TasksController({app: this});
     this.conversations_controller = new Controllers.ConversationsController({app: this});
+    this.calendar_controller = new Controllers.CalendarController({app: this});
     this.search_controller = new Controllers.SearchController({app: this});
     this.chat_controller = new Controllers.ChatController({app: this});
     this.pages_controller = new Controllers.PagesController({app: this});

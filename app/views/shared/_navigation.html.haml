@@ -11,7 +11,7 @@
     .el#today_link= link_to t('.today'), '#!/today', :class => 'today backboned'
     .el#my_tasks_link= link_to t('.my_tasks'), '#!/my_tasks', :class => 'tasks backboned'
     .el#all_tasks_link= link_to t('.all_tasks'), '#!/all_tasks', :class => 'all_tasks backboned'
-    .el= link_to t('.calendars'), calendars_path, :class => 'calendar'
+    .el= link_to t('.calendars'), '#!/calendar', :class => 'calendar'
 
     -# All Projects
     - active_projects = current_user.projects.select{|p| !p.archived} #we select them in ruby because the query is done in the header already

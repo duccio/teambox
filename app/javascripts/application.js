@@ -57,6 +57,7 @@
 //= require <controllers/tasks>
 //= require <controllers/conversations>
 //= require <controllers/pages>
+//= require <controllers/calendar>
 //= require <controllers/users>
 //= require <controllers/search>
 //= require <controllers/chat>
