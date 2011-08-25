@@ -99,7 +99,7 @@
 //= require <views/search_results>
 //= require <views/header>
 //= require <views/sidebar>
-//= require <views/sidebar/projects_filter_name>
+//= require <views/sidebar/project_list>
 //= require <views/upload_area>
 //= require <views/google_docs>
 //= require <views/private_elements>
