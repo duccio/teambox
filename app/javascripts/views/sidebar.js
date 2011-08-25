@@ -9,6 +9,8 @@
 
   Sidebar.initialize = function (options) {
     var current = SidebarStatic.detectSelectedSection(window.location.hash);
+    this.projects_filter_name = 
+      new Teambox.Views.ProjectsFilterName({el: jQuery('#filter_projects_by_name')});
 
     _.bindAll(this, 'renderTaskCounter', 'renderProjects');
 

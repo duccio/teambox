@@ -60,6 +60,19 @@
       .collect(function(p) { return p.get('project_id');});
     };
 
+   /* Returns the array of projects for which a string attribute matches
+    * a supplied string (case insensitive search)
+    *
+    * @param {String} attribute to search in projects
+    * @param {String} string to search
+    * @return {Array} array of project models that match 
+    */
+    ProjectsHelper.filterByAttribute = function(attribute, search_string) {
+      return _.select(Teambox.collections.projects.models, function(project) {
+        return project.get(attribute).toLowerCase().indexOf(search_string) >= 0;
+      });
+    };    
+
   // expose
   Teambox.helpers.projects = ProjectsHelper;
 
