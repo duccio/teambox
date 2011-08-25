@@ -69,7 +69,7 @@
     */
     ProjectsHelper.filterByAttribute = function(attribute, search_string) {
       return _.select(Teambox.collections.projects.models, function(project) {
-        return project.get(attribute).toLowerCase().indexOf(search_string) >= 0;
+        return project.get(attribute).toLowerCase().indexOf(search_string.toLowerCase()) >= 0;
       });
     };    
 
